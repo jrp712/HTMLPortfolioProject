@@ -12,9 +12,14 @@ body {
 }
 
 .header {
-    background-color: #bdc3c7;
+    background: linear-gradient(
+                     rgba(0, 0, 0, .4),
+                     rgba(0, 0, 0, .4)),
+                     url(images/bg.jpg) no-repeat #bdc3c7;
+    background-position: cover;
+    background-size: 100% auto;
     text-align: center;
-    min-height: 250px;
+    min-height: 300px;
     color: #fff;
 }
 
