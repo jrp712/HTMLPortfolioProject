@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
   <title>HTML Portfolio</title>
 </head>
@@ -10,37 +11,45 @@
 <!-- Using old school HTML tags -->
 
 <!-- HEADER -->
-    <div class="header">
-        <h1>Paul LePage Jr.</h1>
-        <h2>Front End Developer</h2>
+    <div class="header" id="centerHeader">
+        <div class="wrapper">
+            <h1 id="myName">Paul LePage Jr.</h1>
+            <h2 id="myTagline">Front End Developer</h2>
+        </div>
     </div>
 <!-- TAGLINE -->
     <div class="tagline">
-        <h3>Dedicated to bringing your ideas to the Web.</h3>
-        <p>I started creating webpages a decade ago using XHTML and now I'm back. I have
-        always been interested in organizing information and creating documents and spreadsheets
-        to help others. Now I'm leveling up my skillset and bringing these ideas to the Web.
-        I'm currently focused on the Front end and will eventually come full circle and understand
-        the Back end. In addition to learning Web Development I also love spending time with my family,
-        exercising, and playing drums.</p>
+        <div class="wrapper">
+            <h3>Dedicated to bringing your ideas to the Web.</h3>
+            <p>I started creating webpages a decade ago using XHTML and now I'm back. I have
+            always been interested in organizing information and creating documents and spreadsheets
+            to help others. Now I'm leveling up my skillset and bringing these ideas to the Web.
+            I'm currently focused on the Front end and will eventually come full circle and understand
+            the Back end. In addition to learning Web Development I also love spending time with my family,
+            exercising, and playing drums.</p>
+        </div>
     </div>
 <!-- SKILLS -->
     <div class="skills">
-        <h3>My skills</h3>
-        <p>I am currently working with the following technologies:</p>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Intermediate JavaScript</li>
-            <li>DOM manipulation</li>
-            <li>jQuery</li>
-            <li>Git versioning</li>
-        </ul>
+        <div class="wrapper">
+            <h3 id="skillsHeader">My skills</h3>
+            <p>I am currently working with the following technologies:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Intermediate JavaScript</li>
+                <li>DOM manipulation</li>
+                <li>jQuery</li>
+                <li>Git versioning</li>
+            </ul>
+        </div>
     </div>
 <!-- CONTACT -->
     <div class="contact">
-        <h3>Contact me</h3>
-        <p>You can contact me anytime on <a href="https://twitter.com/jrp912">Twitter</a> or <a href="https://www.linkedin.com/in/paul-lepage-0542b5ba/">LinkedIn</a></p>
+        <div class="wrapper">
+            <h3>Contact me</h3>
+            <p>You can contact me anytime on <a href="https://twitter.com/jrp912" class="twitter">Twitter</a> or <a href="https://www.linkedin.com/in/paul-lepage-0542b5ba/" class="linkedin">LinkedIn</a></p>
+        </div>
     </div>
 </body>
 </html>
